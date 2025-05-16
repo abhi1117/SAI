@@ -23,7 +23,7 @@ const About: FC = () => {
 
                 <Grid container spacing={6} alignItems="center">
                     {/* Image Section */}
-                    <Grid item xs={12} md={5}>
+                    <Grid container spacing={6} alignItems="center" component="div">
                         <Box
                             sx={{
                                 position: 'relative',
@@ -55,7 +55,7 @@ const About: FC = () => {
                     </Grid>
 
                     {/* Content Section */}
-                    <Grid item xs={12} md={7}>
+                    <Grid container spacing={6} alignItems="center">
                         <Box sx={{ maxWidth: 700, textAlign: 'center' }}>
                             <Typography
                                 variant="h3"
