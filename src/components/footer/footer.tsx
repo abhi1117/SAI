@@ -10,12 +10,15 @@ import {
   Divider,
 } from '@mui/material'
 
+import type { JSX } from 'react';
+
 const socialLinks = [
   { name: 'Instagram', link: '#', icon: '/images/icons/instagram.svg' },
   { name: 'YouTube', link: '#', icon: '/images/icons/youtube.svg' },
   { name: 'Twitter', link: '#', icon: '/images/icons/twitter.svg' },
   { name: 'Dribbble', link: 'https://dribbble.com/', icon: '/images/icons/dribbble.svg' },
   { name: 'Github', link: 'https://github.com/', icon: '/images/icons/github.svg' },
+
 ]
 
 const headerNavigations = [
@@ -26,7 +29,8 @@ const headerNavigations = [
   { label: 'Be One of Us', path: '#joinus' },
 ]
 
-const Footer = (): JSX.Element => {
+const Footer = (): React.ReactElement => {
+
   const theme = useTheme()
 
   return (

@@ -61,7 +61,7 @@ const ContactUs: React.FC = () => {
         {/* Contact Form */}
       
         {/* Contact Info */}
-        <Grid item xs={12} md={4}>
+        <Grid component="div" container spacing={4} justifyContent="center">
           <Paper elevation={3} sx={{ p: 4, height: "100%" }}>
             <Typography variant="h6" gutterBottom>
               Contact Information

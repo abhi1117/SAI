@@ -38,7 +38,7 @@ const publications = [
   },
 ]
 
-const HomePublications = (): ReturnType<() => JSX.Element> => {
+const HomePublications = (): ReturnType<() => React.ReactElement> => {
   const theme = useTheme()
 
   return (
@@ -93,7 +93,7 @@ const HomePublications = (): ReturnType<() => JSX.Element> => {
 
         <Grid container spacing={5}>
           {publications.map((pub) => (
-            <Grid key={pub.id} item xs={12}>
+            <Grid container spacing={5} component="div">
               <Paper
                 elevation={1}
                 sx={{
