@@ -4,16 +4,12 @@ import theme from '@/config/theme';
 import {
   Box,
   Typography,
-  TextField,
-  Button,
   Grid,
   Paper,
   Divider,
 } from "@mui/material";
 import {
   Email,
-  Phone,
-  LocationOn,
 } from "@mui/icons-material";
 
 const ContactUs: React.FC = () => {
